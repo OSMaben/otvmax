@@ -26,10 +26,13 @@
 
 </style>
 @include("components.carousel")
-
+@include("components.anothercarousel")
+{{-- @include("components.hercursourtracking") --}}
 @include("components.choises")
 @include("components.herosection")
 @include("components.carouselChannel")
+@include("components.carouselFilm")
+@include("components.offers")
 
 
 {{-- <div class="relative isolate px-6 pt-14 lg:px-8">

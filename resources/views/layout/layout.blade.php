@@ -15,6 +15,7 @@
     <div class="bg-white">
         @include('layout.header');
         @yield('content')
+        @include("layout.Footer")
     </div>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
